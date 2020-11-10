@@ -9,11 +9,11 @@ api_hash = '31e44198df1635fa81c45fd8a23ba8e0'
 with TelegramClient('name', api_id, api_hash) as client :
     nixya = 5
     while (nixya < 55) :
-        client.send_message('RuAnon_bot', '/stop')
+        client.send_message('Анонимный чат Телеграма', '/stop')
         time.sleep(5)
-        client.send_message('RuAnon_bot', '/start') 
+        client.send_message('Анонимный чат Телеграма', '/start') 
         time.sleep(10)
-        client.send_message('RuAnon_bot', 'Работа интересует? Без 
+        client.send_message('Анонимный чат Телеграма', 'Работа интересует? Без 
 привязки к месту и возврасту. 
 Подойдет даже школьникам. Не 
 криминал (не работа закладчиком
