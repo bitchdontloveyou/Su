@@ -30,3 +30,4 @@ with TelegramClient('name', api_id, api_hash) as client :
             time.sleep(3)
             client.send_message('@RuAnon_bot', nachalo)
             client.send_message('@RuAnon_bot', 'Работа интересует? Без привязки к месту и возврасту. Подойдет даже школьникам. Не криминал (не работа закладчиком и т.д.). Если интересует пиши сюда: @abbcddd .')
+            time.sleep(10)
