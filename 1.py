@@ -6,11 +6,13 @@ api_hash = '31e44198df1635fa81c45fd8a23ba8e0'
 with TelegramClient('name', api_id, api_hash) as client :
     nixya = 5
     while (nixya < 55) :
-        privet = ['Привет', 'Здравствуйте', 'Добрый день', 'Добрый вечер', 'Доброе утро', 'Хай', 'Хелло', 'Халло', 'Доброго времени суток', 'Здравствуй', 'Здрасти']
+        privets = ['Привет', 'Здравствуйте', 'Добрый день', 'Добрый вечер', 'Доброе утро', 'Хай', 'Хелло', 'Халло', 'Доброго времени суток', 'Здравствуй', 'Здрасти']
+        nachalo = random.choice(privets) 
         client.send_message('@RuAnon_bot', '/stop')
         time.sleep(1)
         client.send_message('@RuAnon_bot', '/start') 
         time.sleep(3)
+        client.send_message('@RuAnon_bot', nachalo)
         client.send_message('@RuAnon_bot', 'Работа интересует?')
         client.send_message('@RuAnon_bot', 'Без привязки к месту и возврасту.') 
         client.send_message('@RuAnon_bot', 'Подойдет даже школьникам.') 
