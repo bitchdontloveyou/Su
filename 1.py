@@ -5,6 +5,7 @@ api_hash = '31e44198df1635fa81c45fd8a23ba8e0'
 with TelegramClient('name', api_id, api_hash) as client :
     nixya = 5
     while (nixya < 55) :
+        privet = ['Привет', 'Здравствуйте', 'Добрый день', 'Добрый вечер', 'Доброе утро', 'Хай', 'Хелло', 'Халло', 'Доброго времени суток', 'Здравствуй', 'Здрасти']
         client.send_message('@RuAnon_bot', '/stop')
         time.sleep(1)
         client.send_message('@RuAnon_bot', '/start') 
