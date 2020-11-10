@@ -1,3 +1,4 @@
+import random
 import time 
 from telethon.sync import TelegramClient, events
 api_id = 1765001
