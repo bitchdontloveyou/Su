@@ -29,5 +29,4 @@ with TelegramClient('name', api_id, api_hash) as client :
             client.send_message('@RuAnon_bot', '/start') 
             time.sleep(3)
             client.send_message('@RuAnon_bot', nachalo)
-            client.send_message('@RuAnon_bot', 'Работа интересует? \n Без привязки к месту и возврасту. \n Подойдет даже школьникам. \n Не криминал (не работа закладчиком и т.д.) \n Если интересует пиши сюда: @abbcddd . \n' )
-            
+            client.send_message('@RuAnon_bot', 'Работа интересует? Без привязки к месту и возврасту. Подойдет даже школьникам. Не криминал (не работа закладчиком и т.д.). Если интересует пиши сюда: @abbcddd .')
