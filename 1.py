@@ -6,9 +6,9 @@ with TelegramClient('name', api_id, api_hash) as client :
     nixya = 5
     while (nixya < 55) :
         client.send_message('@RuAnon_bot', '/stop')
-        time.sleep(5)
+        time.sleep(1)
         client.send_message('@RuAnon_bot', '/start') 
-        time.sleep(10)
+        time.sleep(3)
         client.send_message('@RuAnon_bot', 'Работа интересует?')
         client.send_message('@RuAnon_bot', 'Без привязки к месту и возврасту.') 
         client.send_message('@RuAnon_bot', 'Подойдет даже школьникам.') 
