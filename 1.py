@@ -1,8 +1,8 @@
 import random
 import time 
 from telethon.sync import TelegramClient, events
-api_id = 1765001
-api_hash = '31e44198df1635fa81c45fd8a23ba8e0'
+api_id = int
+api_hash = 'string '
 with TelegramClient('name', api_id, api_hash) as client :
     nixya = 5
     while (nixya < 55) :
